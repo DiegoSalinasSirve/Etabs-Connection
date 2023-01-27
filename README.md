@@ -1,5 +1,11 @@
 # Etabs-Connection
 
+
+# La conexión con etabs requiere obtener el objeto etabs el cual permite manipular el programa y
+# el objeto sap_model el cual permite manipular el modelo como tal. Esta conexión puede establecerse 
+# con un modelo abierto como con un modelo cerrado.
+
+# En primer lugar es necesario importar la libreria comtypes.client.
 import comtypes.client 
 
 #%% Conexión con modelo abierto
